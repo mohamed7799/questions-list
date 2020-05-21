@@ -16,19 +16,25 @@
     h1 {
         text-align: center;
         margin-bottom: 3rem;
+        color: antiquewhite;
     }
 }
 
 .q-card {
     background-color: #dededd;
-    box-shadow: 3px 3px 20px #cacaca, -3px -3px 20px #cacaca;
+    box-shadow: 3px 3px 5px #2929297a, -3px -3px 5px #2929297a;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    background-color: #dee8d5;
+    border-radius: 5px;
+    color: #ac92a6;
+    font-weight: 600;
 }
 
 .q-card__text {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -43,7 +49,8 @@
         &:hover {
             cursor: pointer;
             color: white;
-            background-color: black;
+            background-color: #ac92a6;
+            transform: rotate(-90deg);
         }
     }
 }
