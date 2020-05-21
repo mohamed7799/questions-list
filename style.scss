@@ -1,0 +1,55 @@
+@import './resst';
+@import './mixins';
+
+.hide {
+    height: 0;
+}
+
+.show {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#content {
+    width: 60%;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}
+
+.q-card {
+    background-color: #dededd;
+    box-shadow: 3px 3px 20px #cacaca, -3px -3px 20px #cacaca;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.q-card__text {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    i {
+        padding: .5rem;
+        border: 1px solid;
+
+        border-radius: 5px;
+        transition: .3s;
+
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: black;
+        }
+    }
+}
+
+.q-card__answer {
+    overflow: hidden;
+    transition: height .3s linear;
+    height: 0;
+}
